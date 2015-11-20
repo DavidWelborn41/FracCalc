@@ -5,7 +5,10 @@ public class FracCalc {
     public static void main(String[] args) 
     {
         Scanner input = new Scanner(System.in);
-    	// TODO: Read the input from the user and call produceAnswer with an equation
+        System.out.println("Input two fractions: ");
+        String fraction = input.nextLine();
+        produceAnswer(fraction);
+    	
 
     }
     
@@ -19,9 +22,12 @@ public class FracCalc {
     //      e.g. return ==> "1_1/4"
     public static String produceAnswer(String input)
     { 
-        // TODO: Implement this function to produce the solution to the input
-        
-        return "";
+        String[] words = input.split(" ");
+        if(words[1] == "+"){
+        	
+        }
+        System.out.println(words[2]);
+        return " ";
     }
 
     // TODO: Fill in the space below with any helper methods that you think you will need
